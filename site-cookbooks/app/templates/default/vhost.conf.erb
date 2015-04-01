@@ -1,0 +1,9 @@
+server {
+       listen <%= @params[:server_port] %>;
+       root html;
+       index index.html index.htm;
+
+       location / {
+               try_files $uri $uri/ /index.html;
+       }
+}

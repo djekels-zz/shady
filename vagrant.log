@@ -1,0 +1,308 @@
+==> shady: Loading Berkshelf datafile...
+==> shady: Sharing cookbooks with VM
+==> shady: Running cleanup tasks for 'berkshelf'...
+==> shady: Forcing shutdown of VM...
+==> shady: Destroying VM and associated drives...
+==> shady: Running cleanup tasks for 'shell' provisioner...
+==> shady: Running cleanup tasks for 'hostmanager' provisioner...
+==> shady: Running cleanup tasks for 'chef_solo' provisioner...
+==> shady: Updating /etc/hosts file on active guest machines...
+==> shady: Updating /etc/hosts file on host machine (password may be required)...
+bring UP VM with vagrant
+Bringing machine 'shady' up with 'virtualbox' provider...
+    shady: The Berkshelf shelf is at "/root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady"
+==> shady: Sharing cookbooks with VM
+==> shady: Importing base box 'precise32'...
+[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 80%[KProgress: 90%[K==> shady: Matching MAC address for NAT networking...
+==> shady: Setting the name of the VM: foo_shady_1427924480546_69659
+==> shady: Updating Vagrant's Berkshelf...
+==> shady: Resolving cookbook dependencies...
+==> shady: Fetching 'app' from source at site-cookbooks/app
+==> shady: Fetching cookbook index from https://supermarket.chef.io...
+==> shady: Using app (1.0.0) from source at site-cookbooks/app
+==> shady: Using bluepill (2.3.1)
+==> shady: Using apt (2.7.0)
+==> shady: Using build-essential (2.2.2)
+==> shady: Using chef-sugar (3.1.0)
+==> shady: Using chef_handler (1.1.6)
+==> shady: Using iis (4.1.0)
+==> shady: Using mysql (6.0.20)
+==> shady: Using nginx (2.7.6)
+==> shady: Using ohai (2.0.1)
+==> shady: Using php (1.5.0)
+==> shady: Using openssl (4.0.0)
+==> shady: Using rbac (1.0.3)
+==> shady: Using rsyslog (1.15.0)
+==> shady: Using runit (1.5.18)
+==> shady: Using smf (2.2.6)
+==> shady: Using windows (1.36.6)
+==> shady: Using xml (1.2.13)
+==> shady: Using yum (3.5.3)
+==> shady: Using yum-epel (0.6.0)
+==> shady: Using yum-mysql-community (0.1.16)
+==> shady: Vendoring app (1.0.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/app
+==> shady: Vendoring apt (2.7.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/apt
+==> shady: Vendoring bluepill (2.3.1) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/bluepill
+==> shady: Vendoring build-essential (2.2.2) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/build-essential
+==> shady: Vendoring chef-sugar (3.1.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/chef-sugar
+==> shady: Vendoring chef_handler (1.1.6) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/chef_handler
+==> shady: Vendoring iis (4.1.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/iis
+==> shady: Vendoring mysql (6.0.20) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/mysql
+==> shady: Vendoring nginx (2.7.6) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/nginx
+==> shady: Vendoring ohai (2.0.1) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/ohai
+==> shady: Vendoring openssl (4.0.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/openssl
+==> shady: Vendoring php (1.5.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/php
+==> shady: Vendoring rbac (1.0.3) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/rbac
+==> shady: Vendoring rsyslog (1.15.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/rsyslog
+==> shady: Vendoring runit (1.5.18) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/runit
+==> shady: Vendoring smf (2.2.6) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/smf
+==> shady: Vendoring windows (1.36.6) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/windows
+==> shady: Vendoring xml (1.2.13) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/xml
+==> shady: Vendoring yum (3.5.3) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/yum
+==> shady: Vendoring yum-epel (0.6.0) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/yum-epel
+==> shady: Vendoring yum-mysql-community (0.1.16) to /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady/yum-mysql-community
+==> shady: Fixed port collision for 22 => 2222. Now on port 2202.
+==> shady: Clearing any previously set network interfaces...
+==> shady: Preparing network interfaces based on configuration...
+    shady: Adapter 1: nat
+==> shady: Forwarding ports...
+    shady: 22 => 2202 (adapter 1)
+==> shady: Booting VM...
+==> shady: Waiting for machine to boot. This may take a few minutes...
+    shady: SSH address: 127.0.0.1:2202
+    shady: SSH username: vagrant
+    shady: SSH auth method: private key
+    shady: 
+    shady: Vagrant insecure key detected. Vagrant will automatically replace
+    shady: this with a newly generated keypair for better security.
+    shady: 
+    shady: Inserting generated public key within guest...
+    shady: Removing insecure key from the guest if its present...
+    shady: Key inserted! Disconnecting and reconnecting using new SSH key...
+==> shady: Machine booted and ready!
+==> shady: Checking for guest additions in VM...
+    shady: The guest additions on this VM do not match the installed version of
+    shady: VirtualBox! In most cases this is fine, but in rare cases it can
+    shady: prevent things such as shared folders from working properly. If you see
+    shady: shared folder errors, please make sure the guest additions within the
+    shady: virtual machine match the version of VirtualBox you have installed on
+    shady: your host and reload your VM.
+    shady: 
+    shady: Guest Additions Version: 4.2.0
+    shady: VirtualBox Version: 4.3
+==> shady: Setting hostname...
+==> shady: Mounting shared folders...
+    shady: /vagrant => /root/ops_shady/foo
+    shady: /tmp/vagrant-chef/7b60f90ecbeb5d3ef77f8d2041e24a3a/cookbooks => /root/.berkshelf/vagrant-berkshelf/shelves/berkshelf20150401-21740-qbk7j-shady
+==> shady: Updating /etc/hosts file on active guest machines...
+==> shady: Updating /etc/hosts file on host machine (password may be required)...
+==> shady: Installing Chef 12.2.1 Omnibus package...
+==> shady: Downloading Chef 12.2.1 for ubuntu...
+==> shady: downloading https://www.getchef.com/chef/metadata?v=12.2.1&prerelease=false&nightlies=false&p=ubuntu&pv=12.04&m=i686
+==> shady:   to file /tmp/install.sh.1363/metadata.txt
+==> shady: trying wget...
+==> shady: url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/i686/chef_12.2.1-1_i386.deb
+==> shady: md5	0c7c11da89b66bae5542b90ad9201781
+==> shady: sha256	a7f745835dc7f586dd7a5fb3d585ba39b2fe5e02e69a239eaaa77c18277c4624
+==> shady: downloaded metadata file looks valid...
+==> shady: downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/i686/chef_12.2.1-1_i386.deb
+==> shady:   to file /tmp/install.sh.1363/chef_12.2.1-1_i386.deb
+==> shady: trying wget...
+==> shady: Comparing checksum with sha256sum...
+==> shady: Installing Chef 12.2.1
+==> shady: installing with dpkg...
+==> shady: Selecting previously unselected package chef.
+==> shady: (Reading database ... 
+==> shady: 29361 files and directories currently installed.)
+==> shady: Unpacking chef (from .../chef_12.2.1-1_i386.deb) ...
+==> shady: Setting up chef (12.2.1-1) ...
+==> shady: Thank you for installing Chef!
+==> shady: Running provisioner: shell...
+    shady: Running: inline script
+==> shady: stdin: is not a tty
+==> shady: Reading package lists...
+==> shady: Building dependency tree...
+==> shady: Reading state information...
+==> shady: The following extra packages will be installed:
+==> shady:   apache2-mpm-prefork apache2-utils apache2.2-bin apache2.2-common
+==> shady:   libapache2-mod-php5 libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+==> shady:   libaprutil1-ldap libgd2-noxpm libjpeg-turbo8 libjpeg8 libxslt1.1
+==> shady:   nginx-common nginx-full php5-cli php5-common ssl-cert
+==> shady: Suggested packages:
+==> shady:   www-browser apache2-doc apache2-suexec apache2-suexec-custom php-pear
+==> shady:   libgd-tools php5-suhosin openssl-blacklist
+==> shady: The following NEW packages will be installed:
+==> shady:   apache2-mpm-prefork apache2-utils apache2.2-bin apache2.2-common
+==> shady:   libapache2-mod-php5 libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+==> shady:   libaprutil1-ldap libgd2-noxpm libjpeg-turbo8 libjpeg8 libxslt1.1 nginx
+==> shady:   nginx-common nginx-full php5 php5-cli php5-common ssl-cert
+==> shady: 0 upgraded, 20 newly installed, 0 to remove and 179 not upgraded.
+==> shady: Need to get 9,094 kB of archives.
+==> shady: After this operation, 25.3 MB of additional disk space will be used.
+==> shady: Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libjpeg-turbo8 i386 1.1.90+svn733-0ubuntu4.4 [118 kB]
+==> shady: Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libxslt1.1 i386 1.1.26-8ubuntu1.3 [165 kB]
+==> shady: Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/main libjpeg8 i386 8c-2ubuntu7 [2,112 B]
+==> shady: Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libgd2-noxpm i386 2.0.36~rc1~dfsg-6ubuntu2 [199 kB]
+==> shady: Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main libapr1 i386 1.4.6-1 [91.3 kB]
+==> shady: Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/main libaprutil1 i386 1.3.12+dfsg-3 [75.4 kB]
+==> shady: Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/main libaprutil1-dbd-sqlite3 i386 1.3.12+dfsg-3 [10.2 kB]
+==> shady: Get:8 http://us.archive.ubuntu.com/ubuntu/ precise/main libaprutil1-ldap i386 1.3.12+dfsg-3 [7,962 B]
+==> shady: Get:9 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-bin i386 2.2.22-1ubuntu1.8 [1,330 kB]
+==> shady: Get:10 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main apache2-utils i386 2.2.22-1ubuntu1.8 [89.6 kB]
+==> shady: Get:11 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-common i386 2.2.22-1ubuntu1.8 [225 kB]
+==> shady: Get:12 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main apache2-mpm-prefork i386 2.2.22-1ubuntu1.8 [2,414 B]
+==> shady: Get:13 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main php5-common i386 5.3.10-1ubuntu3.17 [164 kB]
+==> shady: Get:14 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libapache2-mod-php5 i386 5.3.10-1ubuntu3.17 [3,109 kB]
+==> shady: Get:15 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe nginx-common all 1.1.19-1ubuntu0.7 [17.0 kB]
+==> shady: Get:16 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe nginx-full i386 1.1.19-1ubuntu0.7 [382 kB]
+==> shady: Get:17 http://us.archive.ubuntu.com/ubuntu/ precise-updates/universe nginx all 1.1.19-1ubuntu0.7 [5,808 B]
+==> shady: Get:18 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main php5 all 5.3.10-1ubuntu3.17 [1,076 B]
+==> shady: Get:19 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main php5-cli i386 5.3.10-1ubuntu3.17 [3,085 kB]
+==> shady: Get:20 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main ssl-cert all 1.0.28ubuntu0.1 [12.3 kB]
+==> shady: dpkg-preconfigure: unable to re-open stdin: No such file or directory
+==> shady: Fetched 9,094 kB in 2s (3,753 kB/s)
+==> shady: Selecting previously unselected package libjpeg-turbo8.
+==> shady: (Reading database ... 
+==> shady: 45486 files and directories currently installed.)
+==> shady: Unpacking libjpeg-turbo8 (from .../libjpeg-turbo8_1.1.90+svn733-0ubuntu4.4_i386.deb) ...
+==> shady: Selecting previously unselected package libxslt1.1.
+==> shady: Unpacking libxslt1.1 (from .../libxslt1.1_1.1.26-8ubuntu1.3_i386.deb) ...
+==> shady: Selecting previously unselected package libjpeg8.
+==> shady: Unpacking libjpeg8 (from .../libjpeg8_8c-2ubuntu7_i386.deb) ...
+==> shady: Selecting previously unselected package libgd2-noxpm.
+==> shady: Unpacking libgd2-noxpm (from .../libgd2-noxpm_2.0.36~rc1~dfsg-6ubuntu2_i386.deb) ...
+==> shady: Selecting previously unselected package libapr1.
+==> shady: Unpacking libapr1 (from .../libapr1_1.4.6-1_i386.deb) ...
+==> shady: Selecting previously unselected package libaprutil1.
+==> shady: Unpacking libaprutil1 (from .../libaprutil1_1.3.12+dfsg-3_i386.deb) ...
+==> shady: Selecting previously unselected package libaprutil1-dbd-sqlite3.
+==> shady: Unpacking libaprutil1-dbd-sqlite3 (from .../libaprutil1-dbd-sqlite3_1.3.12+dfsg-3_i386.deb) ...
+==> shady: Selecting previously unselected package libaprutil1-ldap.
+==> shady: Unpacking libaprutil1-ldap (from .../libaprutil1-ldap_1.3.12+dfsg-3_i386.deb) ...
+==> shady: Selecting previously unselected package apache2.2-bin.
+==> shady: Unpacking apache2.2-bin (from .../apache2.2-bin_2.2.22-1ubuntu1.8_i386.deb) ...
+==> shady: Selecting previously unselected package apache2-utils.
+==> shady: Unpacking apache2-utils (from .../apache2-utils_2.2.22-1ubuntu1.8_i386.deb) ...
+==> shady: Selecting previously unselected package apache2.2-common.
+==> shady: Unpacking apache2.2-common (from .../apache2.2-common_2.2.22-1ubuntu1.8_i386.deb) ...
+==> shady: Selecting previously unselected package apache2-mpm-prefork.
+==> shady: Unpacking apache2-mpm-prefork (from .../apache2-mpm-prefork_2.2.22-1ubuntu1.8_i386.deb) ...
+==> shady: Selecting previously unselected package php5-common.
+==> shady: Unpacking php5-common (from .../php5-common_5.3.10-1ubuntu3.17_i386.deb) ...
+==> shady: Selecting previously unselected package libapache2-mod-php5.
+==> shady: Unpacking libapache2-mod-php5 (from .../libapache2-mod-php5_5.3.10-1ubuntu3.17_i386.deb) ...
+==> shady: Selecting previously unselected package nginx-common.
+==> shady: Unpacking nginx-common (from .../nginx-common_1.1.19-1ubuntu0.7_all.deb) ...
+==> shady: Selecting previously unselected package nginx-full.
+==> shady: Unpacking nginx-full (from .../nginx-full_1.1.19-1ubuntu0.7_i386.deb) ...
+==> shady: Selecting previously unselected package nginx.
+==> shady: Unpacking nginx (from .../nginx_1.1.19-1ubuntu0.7_all.deb) ...
+==> shady: Selecting previously unselected package php5.
+==> shady: Unpacking php5 (from .../php5_5.3.10-1ubuntu3.17_all.deb) ...
+==> shady: Selecting previously unselected package php5-cli.
+==> shady: Unpacking php5-cli (from .../php5-cli_5.3.10-1ubuntu3.17_i386.deb) ...
+==> shady: Selecting previously unselected package ssl-cert.
+==> shady: Unpacking ssl-cert (from .../ssl-cert_1.0.28ubuntu0.1_all.deb) ...
+==> shady: Processing triggers for man-db ...
+==> shady: Processing triggers for ureadahead ...
+==> shady: ureadahead will be reprofiled on next reboot
+==> shady: Processing triggers for ufw ...
+==> shady: Setting up libjpeg-turbo8 (1.1.90+svn733-0ubuntu4.4) ...
+==> shady: Setting up libxslt1.1 (1.1.26-8ubuntu1.3) ...
+==> shady: Setting up libjpeg8 (8c-2ubuntu7) ...
+==> shady: Setting up libgd2-noxpm (2.0.36~rc1~dfsg-6ubuntu2) ...
+==> shady: Setting up libapr1 (1.4.6-1) ...
+==> shady: Setting up libaprutil1 (1.3.12+dfsg-3) ...
+==> shady: Setting up libaprutil1-dbd-sqlite3 (1.3.12+dfsg-3) ...
+==> shady: Setting up libaprutil1-ldap (1.3.12+dfsg-3) ...
+==> shady: Setting up apache2.2-bin (2.2.22-1ubuntu1.8) ...
+==> shady: Setting up apache2-utils (2.2.22-1ubuntu1.8) ...
+==> shady: Setting up apache2.2-common (2.2.22-1ubuntu1.8) ...
+==> shady: Enabling site default.
+==> shady: Enabling module alias.
+==> shady: Enabling module autoindex.
+==> shady: Enabling module dir.
+==> shady: Enabling module env.
+==> shady: Enabling module mime.
+==> shady: Enabling module negotiation.
+==> shady: Enabling module setenvif.
+==> shady: Enabling module status.
+==> shady: Enabling module auth_basic.
+==> shady: Enabling module deflate.
+==> shady: Enabling module authz_default.
+==> shady: Enabling module authz_user.
+==> shady: Enabling module authz_groupfile.
+==> shady: Enabling module authn_file.
+==> shady: Enabling module authz_host.
+==> shady: Enabling module reqtimeout.
+==> shady: Setting up apache2-mpm-prefork (2.2.22-1ubuntu1.8) ...
+==> shady:  * Starting web server apache2
+==> shady:    ...done.
+==> shady: Setting up php5-common (5.3.10-1ubuntu3.17) ...
+==> shady: Setting up libapache2-mod-php5 (5.3.10-1ubuntu3.17) ...
+==> shady: Creating config file /etc/php5/apache2/php.ini with new version
+==> shady:  * Restarting web server apache2
+==> shady:  ... waiting 
+==> shady:    ...done.
+==> shady: Setting up nginx-common (1.1.19-1ubuntu0.7) ...
+==> shady: Setting up nginx-full (1.1.19-1ubuntu0.7) ...
+==> shady: Setting up nginx (1.1.19-1ubuntu0.7) ...
+==> shady: Setting up php5 (5.3.10-1ubuntu3.17) ...
+==> shady: Setting up php5-cli (5.3.10-1ubuntu3.17) ...
+==> shady: Creating config file /etc/php5/cli/php.ini with new version
+==> shady: update-alternatives: 
+==> shady: using /usr/bin/php5 to provide /usr/bin/php (php) in auto mode.
+==> shady: Setting up ssl-cert (1.0.28ubuntu0.1) ...
+==> shady: Processing triggers for libc-bin ...
+==> shady: ldconfig deferred processing now taking place
+==> shady: Running provisioner: hostmanager...
+==> shady: Running provisioner: chef_solo...
+==> shady: Detected Chef (latest) is already installed
+Generating chef JSON and uploading...
+==> shady: Running chef-solo...
+==> shady: stdin: is not a tty
+==> shady: [2015-04-01T21:42:20+00:00] INFO: Forking chef instance to converge...
+==> shady: [2015-04-01T21:42:20+00:00] INFO: *** Chef 12.2.1 ***
+==> shady: [2015-04-01T21:42:20+00:00] INFO: Chef-client pid: 2646
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Setting the run_list to ["recipe[app::vhost]"] from CLI options
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Run List is [recipe[app::vhost]]
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Run List expands to [app::vhost]
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Starting Chef Run for shady.local
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Running start handlers
+==> shady: [2015-04-01T21:42:21+00:00] INFO: Start handlers complete.
+==> shady: shady
+==> shady: ================================================================================
+==> shady: Recipe Compile Error in /tmp/vagrant-chef/7b60f90ecbeb5d3ef77f8d2041e24a3a/cookbooks/app/recipes/vhost.rb
+==> shady: ================================================================================
+==> shady: NoMethodError
+==> shady: -------------
+==> shady: No resource or method named `web_app' for `Chef::Recipe "vhost"'
+==> shady: Cookbook Trace:
+==> shady: ---------------
+==> shady:   /tmp/vagrant-chef/7b60f90ecbeb5d3ef77f8d2041e24a3a/cookbooks/app/recipes/vhost.rb:13:in `from_file'
+==> shady: Relevant File Content:
+==> shady: ----------------------
+==> shady: /tmp/vagrant-chef/7b60f90ecbeb5d3ef77f8d2041e24a3a/cookbooks/app/recipes/vhost.rb:
+==> shady:   6:  #
+==> shady:   7:  # Define app name
+==> shady:   8:  app_name = "#{node['app']['name']}"
+==> shady:   9:  
+==> shady:  10:  puts "#{app_name}"
+==> shady:  11:  
+==> shady:  12:  # Enable vhost
+==> shady:  13>> web_app app_name do
+==> shady:  14:    server_port node['app']['server_port']
+==> shady:  15:  
+==> shady:  16:  	puts "#{server_port}"
+==> shady:  17:  
+==> shady:  18:    server_name node['app']['server_name']
+==> shady:  19:  
+==> shady:  20:  	puts "#{server_name}"
+==> shady:  21:  
+==> shady:  22:    server_aliases node['app']['server_aliases']
+==> shady: 
+==> shady: [2015-04-01T21:42:22+00:00] ERROR: Running exception handlers
+==> shady: [2015-04-01T21:42:22+00:00] ERROR: Exception handlers complete
+==> shady: [2015-04-01T21:42:22+00:00] FATAL: Stacktrace dumped to /var/chef/cache/chef-stacktrace.out
+==> shady: [2015-04-01T21:42:22+00:00] ERROR: No resource or method named `web_app' for `Chef::Recipe "vhost"'
+==> shady: [2015-04-01T21:42:22+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
